@@ -138,6 +138,7 @@ body {
   flex-direction: column;
   gap: 16px;
   margin-left: 15px;
+  padding-right: 20px;
 }
 
 .content-section__list-item {
@@ -164,14 +165,18 @@ line-height: 21.6px;
 
 }
 .card {
-  padding: 20px;
+  padding: 20px 45px 20px 20px;
   border-radius: 30px;
 }
 
 .card_text-only {
-  padding: 20px;
+  padding: 20px 20px 20px 20px;
   border-radius: 30px;
   color: black;
+}
+.card_text-only > .card__content > .card__text {
+  padding-right: 30px;
+
 }
 
 .card_theme_dark {
@@ -236,6 +241,7 @@ line-height: 21.6px;
 .footer__links>li>a{
   color: white;
   text-decoration: none;
+  font-size: 14px;
 
 }
 
