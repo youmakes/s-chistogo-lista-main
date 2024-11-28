@@ -1,4 +1,4 @@
-@import url(fonts.css);
+@import url(../fonts/fonts.css);
 @import url(reset.css);
 
 body {
@@ -142,8 +142,8 @@ body {
 }
 
 .content-section__list-item {
-font-size: 16px;
-line-height: 21.6px;
+  font-size: 16px;
+  line-height: 21.6px;
 }
 
 .content-section__list-accent {
@@ -157,13 +157,13 @@ line-height: 21.6px;
   gap: 32px;
 }
 
-.cards-list  {
+.cards-list {
   display: flex;
   flex-direction: column;
   gap: 32px;
   list-style-type: none;
-
 }
+
 .card {
   padding: 20px 45px 20px 20px;
   border-radius: 30px;
@@ -174,9 +174,9 @@ line-height: 21.6px;
   border-radius: 30px;
   color: black;
 }
+
 .card_text-only > .card__content > .card__text {
   padding-right: 30px;
-
 }
 
 .card_theme_dark {
@@ -184,14 +184,14 @@ line-height: 21.6px;
 }
 
 .card_theme_bright {
-  background-color: #FEE42A;
+  background-color: #fee42a;
 }
 
 .card__author {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-bottom: 8px ;
+  margin-bottom: 8px;
 }
 
 .card__author-photo {
@@ -220,12 +220,11 @@ line-height: 21.6px;
   line-height: 21.6px;
 }
 
-
 /* Подвал */
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #FEE42A;
+  border-top: 1px solid #fee42a;
   width: 360px;
   padding: 20px;
   margin: auto;
@@ -238,10 +237,9 @@ line-height: 21.6px;
   gap: 16px;
   list-style-type: none;
 }
-.footer__links>li>a{
+
+.footer__links > li > a {
   color: white;
   text-decoration: none;
   font-size: 14px;
-
 }
-
