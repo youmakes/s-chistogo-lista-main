@@ -34,7 +34,7 @@ body {
 
 .header__menu-link {
   font-size: 16px;
-  color: #F5F5F5;
+  color: #f5f5f5;
   line-height: 19.2px;
 }
 
@@ -47,6 +47,7 @@ body {
 
 .content-section_theme_dark {
   background-color: #000;
+  color: white;
 }
 
 .content-section_theme_bright {
@@ -54,7 +55,30 @@ body {
 }
 
 .cover {
-  padding-bottom: 0px 20px 30px;
+  padding: 13px 20px 20px;
+  background-image: url(../images/cover.svg);
+  background-position: right 0% bottom 40%;
+  background-size: 95% auto;
+  background-repeat: no-repeat;
+}
+
+.cover__title {
+  font-family: "EB Garamond", "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .intro {
