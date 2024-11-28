@@ -115,7 +115,38 @@ body {
 }
 
 .reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  font-family: "EB Garamond", "Times New Roman", serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 115%;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column; 
+  gap: 16px;
+  margin-left: 15px;
+}
+
+.content-section__list-item {
+font-size: 16px;
+line-height: 21.6px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
 }
 
 .how-to {
