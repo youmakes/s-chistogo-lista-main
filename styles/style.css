@@ -118,7 +118,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding: 40px 20px;
+  padding: 40px 20px 40px 20px;
 }
 
 .content-section__subtitle {
@@ -135,7 +135,7 @@ body {
 
 .content-section__list {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   gap: 16px;
   margin-left: 15px;
 }
@@ -152,6 +152,51 @@ line-height: 21.6px;
 .how-to {
   padding: 40px 20px 60px;
 }
+
+.cards-list {
+
+}
+.card {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.card_text-only {
+
+}
+
+.card_theme_dark {
+  background-color: #343434;
+}
+
+.card_theme_bright {
+  background-color: #FEE42A;
+}
+
+.card__author {
+
+}
+
+.card__author-photo {
+  width: 100px;
+}
+
+.card__author-name {
+
+}
+
+.card__content {
+
+}
+
+.card__title {
+
+}
+
+.card__text {
+
+}
+
 
 /* Подвал */
 .footer {
